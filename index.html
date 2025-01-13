@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok WebApp</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="navbar">
+          <a href="index.html" class="home-btn">Home</a>
+          <input type="text" class="search-bar" placeholder="Search..." />
+          <div class="auth-buttons">
+              <a href="signup.html" class="btn signup-btn">Sign Up</a>
+              <a href="signin.html" class="btn signin-btn">Sign In</a>
+          </div>
+      </div>
+  </nav>
+  
+  </header>
+  <main id="video-container">
+    <!-- Sample videos -->
+    <div class="video-card" data-title="Sample Video 1">
+      <video class="video" src="assets/videos/sample1.mp4" muted></video>
+      <div class="video-details">
+        <p class="title">Sample Video 1</p>
+        <button class="like-btn">Like</button>
+        <textarea class="comment-box" placeholder="Write a comment..."></textarea>
+      </div>
+    </div>
+    <div class="video-card" data-title="Sample Video 2">
+      <video class="video" src="assets/videos/sample2.mp4" muted></video>
+      <div class="video-details">
+        <p class="title">Sample Video 2</p>
+        <button class="like-btn">Like</button>
+        <textarea class="comment-box" placeholder="Write a comment..."></textarea>
+      </div>
+    </div>
+  </main>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
